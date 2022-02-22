@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 121.34 s <<< FAILURE! - in TestSuite
+com.crm.qa.Testcases.WelcomePageTest.LogInBtnEnabled  Time elapsed: 7.82 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://ui.freecrm.com/">...</a> is not clickable at point (940, 30). Other element would receive the click: <div id="preloader" style="opacity: 0.186336;">...</div>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Muralis-MacBook-Pro.local', ip: '2601:1c0:6b01:55e0:0:0:0:93e1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [493b1a8619c40d07d164ce7c95b7aa19, clickElement {id=ee82324c-fedb-40d9-a92d-0bc6798341b7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.20 (6559bb085abca..., userDataDir: /var/folders/qy/j_86_fn55qn...}, goog:chromeOptions: {debuggerAddress: localhost:52608}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52608/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (493b1a8619c40d07d164ce7c95b7aa19)] -> xpath: //a[contains(text(),'Login')]]
+Session ID: 493b1a8619c40d07d164ce7c95b7aa19
+	at com.crm.qa.Testcases.WelcomePageTest.LogInBtnEnabled(WelcomePageTest.java:40)
+
+com.crm.qa.Testcases.CalenderPageTest.setUp  Time elapsed: 20.826 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://ui.freecrm.com/">...</a> is not clickable at point (940, 30). Other element would receive the click: <div id="preloader">...</div>
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'Muralis-MacBook-Pro.local', ip: '2601:1c0:6b01:55e0:0:0:0:93e1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.5.2', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [65cc9cab414b8e206d08b5f41c1b1ad0, clickElement {id=904398e6-e75b-4e2c-beb6-cb24ed473dd8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.20 (6559bb085abca..., userDataDir: /var/folders/qy/j_86_fn55qn...}, goog:chromeOptions: {debuggerAddress: localhost:52653}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52653/devtoo..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (65cc9cab414b8e206d08b5f41c1b1ad0)] -> xpath: //a[contains(text(),'Login')]]
+Session ID: 65cc9cab414b8e206d08b5f41c1b1ad0
+	at com.crm.qa.Testcases.CalenderPageTest.setUp(CalenderPageTest.java:46)
+

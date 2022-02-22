@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37964" started-at="2022-02-20T20:11:53 PST" finished-at="2022-02-20T20:12:31 PST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37964" started-at="2022-02-20T20:11:53 PST" finished-at="2022-02-20T20:12:31 PST">
+      <class name="com.crm.qa.Testcases.CalenderPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.Testcases.CalenderPageTest@954b04f]" name="setUp" is-config="true" duration-ms="22956" started-at="2022-02-20T20:11:53 PST" finished-at="2022-02-20T20:12:16 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalenderCreateBtnTest()[pri:1, instance:com.crm.qa.Testcases.CalenderPageTest@954b04f]" name="CalenderCreateBtnTest" duration-ms="503" started-at="2022-02-20T20:12:16 PST" finished-at="2022-02-20T20:12:17 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalenderCreateBtnTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.crm.qa.Testcases.CalenderPageTest@954b04f]" name="TearDown" is-config="true" duration-ms="5" started-at="2022-02-20T20:12:17 PST" finished-at="2022-02-20T20:12:17 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.Testcases.CalenderPageTest@954b04f]" name="setUp" is-config="true" duration-ms="14277" started-at="2022-02-20T20:12:17 PST" finished-at="2022-02-20T20:12:31 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CalenderPageValidationTest()[pri:2, instance:com.crm.qa.Testcases.CalenderPageTest@954b04f]" name="CalenderPageValidationTest" duration-ms="133" started-at="2022-02-20T20:12:31 PST" finished-at="2022-02-20T20:12:31 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CalenderPageValidationTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.crm.qa.Testcases.CalenderPageTest@954b04f]" name="TearDown" is-config="true" duration-ms="2" started-at="2022-02-20T20:12:31 PST" finished-at="2022-02-20T20:12:31 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.crm.qa.Testcases.CalenderPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
